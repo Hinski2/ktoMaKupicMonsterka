@@ -1,14 +1,26 @@
 body {
     font-family: Arial, sans-serif;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background-color: #f0f0f0;
+    flex-direction: column; /* Ustawia elementy w pionie */
+    justify-content: center; /* Wyśrodkowanie w pionie */
+    align-items: center; /* Wyśrodkowanie w poziomie */
+    height: 100vh; /* Pełna wysokość widoku */
+    background-color: #000000; /* Czarny kolor tła */
+    color: white; /* Biały kolor tekstu */
+    margin: 0; /* Usuwa domyślny margines */
+}
+
+h1 {
+    font-size: 70px; /* Zwiększona wielkość czcionki dla nagłówka */
+    margin-bottom: 20px; /* Dodaje odstęp pomiędzy nagłówkiem a przyciskiem */
 }
 
 button {
     padding: 10px 20px;
-    font-size: 16px;
+    font-size: 32px; /* Zwiększona wielkość czcionki dla tekstu na przycisku */
     cursor: pointer;
+    border: none; /* Usuwa ramkę */
+    background-color: rgb(9, 31, 116); /* Kolor tła przycisku */
+    color: white; /* Biały tekst na przycisku */
+    border-radius: 5px; /* Zaokrąglenie rogów przycisku */
 }
