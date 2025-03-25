@@ -1,0 +1,30 @@
+{
+  "name": "ktomakupicmonsterka",
+  "version": "1.0.0",
+  "description": "## Why This Page Exists Once upon a time in a not-so-far-away land of programming and energy drinks, two friends, Kuba and Janek, faced a mighty dilemma that would put their memory to the test. Despite their sharp coding skills, they somehow couldn't keep track of a simple task: whose turn was it to buy the next can of Monster Energy? Battles were almost fought, friendships were on the line, and cans were left unbought. This chaos led to the birth of the \"Monster Tracker\" – a legendary page that saves the day by remembering so they don't have to.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/server.js",
+    "dev": "node backend/server.js --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Hinski2/ktoMaKupicMonsterka.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Hinski2/ktoMaKupicMonsterka/issues"
+  },
+  "homepage": "https://github.com/Hinski2/ktoMaKupicMonsterka#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.0",
+    "node": "^20.19.0",
+    "vite": "^6.2.3"
+  }
+}
